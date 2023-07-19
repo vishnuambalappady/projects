@@ -14,6 +14,7 @@ class Products {
   int total;
 
   int skip;
+
   int limit;
 
   Products({
