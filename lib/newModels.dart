@@ -12,6 +12,7 @@ String productsToJson(Products data) => json.encode(data.toJson());
 class Products {
   List<Product> products;
   int total;
+
   int skip;
   int limit;
 
